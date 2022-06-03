@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACBE5702284A2264009F3487 /* CustomOTPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE5701284A2264009F3487 /* CustomOTPApp.swift */; };
+		ACBE5704284A2264009F3487 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE5703284A2264009F3487 /* ContentView.swift */; };
+		ACBE5706284A2265009F3487 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE5705284A2265009F3487 /* Assets.xcassets */; };
+		ACBE5709284A2265009F3487 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE5708284A2265009F3487 /* Preview Assets.xcassets */; };
+		ACBE5713284A2265009F3487 /* CustomOTPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE5712284A2265009F3487 /* CustomOTPTests.swift */; };
+		ACBE571D284A2265009F3487 /* CustomOTPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE571C284A2265009F3487 /* CustomOTPUITests.swift */; };
+		ACBE571F284A2265009F3487 /* CustomOTPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE571E284A2265009F3487 /* CustomOTPUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACBE570F284A2265009F3487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBE56F6284A2264009F3487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBE56FD284A2264009F3487;
+			remoteInfo = CustomOTP;
+		};
+		ACBE5719284A2265009F3487 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBE56F6284A2264009F3487 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBE56FD284A2264009F3487;
+			remoteInfo = CustomOTP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACBE56FE284A2264009F3487 /* CustomOTP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomOTP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE5701284A2264009F3487 /* CustomOTPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOTPApp.swift; sourceTree = "<group>"; };
+		ACBE5703284A2264009F3487 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACBE5705284A2265009F3487 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACBE5708284A2265009F3487 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACBE570E284A2265009F3487 /* CustomOTPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomOTPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE5712284A2265009F3487 /* CustomOTPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOTPTests.swift; sourceTree = "<group>"; };
+		ACBE5718284A2265009F3487 /* CustomOTPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomOTPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE571C284A2265009F3487 /* CustomOTPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOTPUITests.swift; sourceTree = "<group>"; };
+		ACBE571E284A2265009F3487 /* CustomOTPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomOTPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACBE56FB284A2264009F3487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE570B284A2265009F3487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE5715284A2265009F3487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACBE56F5284A2264009F3487 = {
+			isa = PBXGroup;
+			children = (
+				ACBE5700284A2264009F3487 /* CustomOTP */,
+				ACBE5711284A2265009F3487 /* CustomOTPTests */,
+				ACBE571B284A2265009F3487 /* CustomOTPUITests */,
+				ACBE56FF284A2264009F3487 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACBE56FF284A2264009F3487 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE56FE284A2264009F3487 /* CustomOTP.app */,
+				ACBE570E284A2265009F3487 /* CustomOTPTests.xctest */,
+				ACBE5718284A2265009F3487 /* CustomOTPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACBE5700284A2264009F3487 /* CustomOTP */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE5701284A2264009F3487 /* CustomOTPApp.swift */,
+				ACBE5703284A2264009F3487 /* ContentView.swift */,
+				ACBE5705284A2265009F3487 /* Assets.xcassets */,
+				ACBE5707284A2265009F3487 /* Preview Content */,
+			);
+			path = CustomOTP;
+			sourceTree = "<group>";
+		};
+		ACBE5707284A2265009F3487 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE5708284A2265009F3487 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACBE5711284A2265009F3487 /* CustomOTPTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE5712284A2265009F3487 /* CustomOTPTests.swift */,
+			);
+			path = CustomOTPTests;
+			sourceTree = "<group>";
+		};
+		ACBE571B284A2265009F3487 /* CustomOTPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE571C284A2265009F3487 /* CustomOTPUITests.swift */,
+				ACBE571E284A2265009F3487 /* CustomOTPUITestsLaunchTests.swift */,
+			);
+			path = CustomOTPUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACBE56FD284A2264009F3487 /* CustomOTP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBE5722284A2265009F3487 /* Build configuration list for PBXNativeTarget "CustomOTP" */;
+			buildPhases = (
+				ACBE56FA284A2264009F3487 /* Sources */,
+				ACBE56FB284A2264009F3487 /* Frameworks */,
+				ACBE56FC284A2264009F3487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CustomOTP;
+			productName = CustomOTP;
+			productReference = ACBE56FE284A2264009F3487 /* CustomOTP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACBE570D284A2265009F3487 /* CustomOTPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBE5725284A2265009F3487 /* Build configuration list for PBXNativeTarget "CustomOTPTests" */;
+			buildPhases = (
+				ACBE570A284A2265009F3487 /* Sources */,
+				ACBE570B284A2265009F3487 /* Frameworks */,
+				ACBE570C284A2265009F3487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBE5710284A2265009F3487 /* PBXTargetDependency */,
+			);
+			name = CustomOTPTests;
+			productName = CustomOTPTests;
+			productReference = ACBE570E284A2265009F3487 /* CustomOTPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACBE5717284A2265009F3487 /* CustomOTPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBE5728284A2265009F3487 /* Build configuration list for PBXNativeTarget "CustomOTPUITests" */;
+			buildPhases = (
+				ACBE5714284A2265009F3487 /* Sources */,
+				ACBE5715284A2265009F3487 /* Frameworks */,
+				ACBE5716284A2265009F3487 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBE571A284A2265009F3487 /* PBXTargetDependency */,
+			);
+			name = CustomOTPUITests;
+			productName = CustomOTPUITests;
+			productReference = ACBE5718284A2265009F3487 /* CustomOTPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACBE56F6284A2264009F3487 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					ACBE56FD284A2264009F3487 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					ACBE570D284A2265009F3487 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = ACBE56FD284A2264009F3487;
+					};
+					ACBE5717284A2265009F3487 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = ACBE56FD284A2264009F3487;
+					};
+				};
+			};
+			buildConfigurationList = ACBE56F9284A2264009F3487 /* Build configuration list for PBXProject "CustomOTP" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACBE56F5284A2264009F3487;
+			productRefGroup = ACBE56FF284A2264009F3487 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBE56FD284A2264009F3487 /* CustomOTP */,
+				ACBE570D284A2265009F3487 /* CustomOTPTests */,
+				ACBE5717284A2265009F3487 /* CustomOTPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACBE56FC284A2264009F3487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE5709284A2265009F3487 /* Preview Assets.xcassets in Resources */,
+				ACBE5706284A2265009F3487 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE570C284A2265009F3487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE5716284A2265009F3487 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACBE56FA284A2264009F3487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE5704284A2264009F3487 /* ContentView.swift in Sources */,
+				ACBE5702284A2264009F3487 /* CustomOTPApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE570A284A2265009F3487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE5713284A2265009F3487 /* CustomOTPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE5714284A2265009F3487 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE571D284A2265009F3487 /* CustomOTPUITests.swift in Sources */,
+				ACBE571F284A2265009F3487 /* CustomOTPUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACBE5710284A2265009F3487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBE56FD284A2264009F3487 /* CustomOTP */;
+			targetProxy = ACBE570F284A2265009F3487 /* PBXContainerItemProxy */;
+		};
+		ACBE571A284A2265009F3487 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBE56FD284A2264009F3487 /* CustomOTP */;
+			targetProxy = ACBE5719284A2265009F3487 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACBE5720284A2265009F3487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACBE5721284A2265009F3487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACBE5723284A2265009F3487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomOTP/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACBE5724284A2265009F3487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CustomOTP/Preview Content\"";
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomOTP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACBE5726284A2265009F3487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomOTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomOTP.app/CustomOTP";
+			};
+			name = Debug;
+		};
+		ACBE5727284A2265009F3487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomOTPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CustomOTP.app/CustomOTP";
+			};
+			name = Release;
+		};
+		ACBE5729284A2265009F3487 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomOTPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomOTP;
+			};
+			name = Debug;
+		};
+		ACBE572A284A2265009F3487 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LU893QGJWJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.CustomOTPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CustomOTP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACBE56F9284A2264009F3487 /* Build configuration list for PBXProject "CustomOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE5720284A2265009F3487 /* Debug */,
+				ACBE5721284A2265009F3487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBE5722284A2265009F3487 /* Build configuration list for PBXNativeTarget "CustomOTP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE5723284A2265009F3487 /* Debug */,
+				ACBE5724284A2265009F3487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBE5725284A2265009F3487 /* Build configuration list for PBXNativeTarget "CustomOTPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE5726284A2265009F3487 /* Debug */,
+				ACBE5727284A2265009F3487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBE5728284A2265009F3487 /* Build configuration list for PBXNativeTarget "CustomOTPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE5729284A2265009F3487 /* Debug */,
+				ACBE572A284A2265009F3487 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACBE56F6284A2264009F3487 /* Project object */;
+}
